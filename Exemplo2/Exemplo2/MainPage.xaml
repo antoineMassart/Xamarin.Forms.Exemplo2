@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exemplo2.MainPage">
+    
+    <StackLayout>
+        <Frame BackgroundColor="Gray" Padding="24" CornerRadius="0">
+            <Label Text="Exemplo 2" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+        </Frame>
+
+
+        <Button Text = "1000 numbers"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_1" />
+
+        <Button Text= "50 words"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_2" />
+
+
+        <Button Text= "15 contents"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_3" />
+
+    </StackLayout>
+
+</ContentPage>

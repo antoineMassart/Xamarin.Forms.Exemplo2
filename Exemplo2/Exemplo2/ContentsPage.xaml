@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exemplo2.ContentsPage">
+
+    <ContentPage.Content>
+
+        <ListView x:Name="listOfContents">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <FlexLayout Wrap="Wrap" Direction="Row" JustifyContent="SpaceAround">
+                            <Image Source="{Binding Imagem}" WidthRequest="50"/>
+                            <Label Text="{Binding Texto}" WidthRequest="150" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                            <Label Text="{Binding Numero}" WidthRequest="50" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                        </FlexLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </ContentPage.Content>
+
+</ContentPage>
