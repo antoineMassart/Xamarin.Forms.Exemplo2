@@ -10,9 +10,9 @@
                 <DataTemplate>
                     <ViewCell>
                         <FlexLayout Wrap="Wrap" Direction="Row" JustifyContent="SpaceAround">
-                            <Image Source="{Binding Imagem}" WidthRequest="50"/>
-                            <Label Text="{Binding Texto}" WidthRequest="150" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
-                            <Label Text="{Binding Numero}" WidthRequest="50" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                            <Image Source="{Binding Image}" WidthRequest="50"/>
+                            <Label Text="{Binding Text}" WidthRequest="150" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                            <Label Text="{Binding Num}" WidthRequest="50" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
                         </FlexLayout>
                     </ViewCell>
                 </DataTemplate>
